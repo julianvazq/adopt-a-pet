@@ -1,23 +1,24 @@
 {
-  "name": "adopt-a-pet",
+  "name": "pet-finder-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "dev:mock": "cross-env PET_MOCK=mock npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julianvazq/adopt-a-pet.git"
+    "url": "git+https://github.com/julianvazq/pet-finder-react.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/julianvazq/adopt-a-pet/issues"
+    "url": "https://github.com/julianvazq/pet-finder-react/issues"
   },
-  "homepage": "https://github.com/julianvazq/adopt-a-pet#readme",
+  "homepage": "https://github.com/julianvazq/pet-finder-react#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1",
